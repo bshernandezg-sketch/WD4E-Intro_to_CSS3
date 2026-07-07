@@ -13,6 +13,11 @@ header{
   row-gap: normal;
   background-color: #ECD06F;
 }
+nav {
+  display: flex;
+  margin: 5px 5%;
+  justify-self: center;
+}
 main{
   margin-top: 10px;
   background-color: #fdebaa;
@@ -23,8 +28,10 @@ footer{
   background-color: coral;
 }
 ul{
-  padding: 5% 10%;
+  display: flex;
+  padding: 0;
   margin: 0;
+  gap: 4vh;
 }
 li{
   margin: 0;
@@ -44,7 +51,7 @@ h1{
   grid-column: 1 / 3;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
-  color: #D14836;
+  color: #383838;
   margin: 30px auto 0px auto;
 }
 p{
